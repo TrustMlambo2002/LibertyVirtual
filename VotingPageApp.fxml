@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="ancVotingPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VotingPageController">
+   <children>
+      <ImageView fx:id="ivNational" fitHeight="291.0" fitWidth="270.0" layoutX="81.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@NationalImg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivLocal" fitHeight="358.0" fitWidth="270.0" layoutX="708.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@localImg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivProvincial" fitHeight="358.0" fitWidth="270.0" layoutX="399.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ProvincialImg.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnNational" layoutX="122.0" layoutY="412.0" mnemonicParsing="false" onAction="#btnNational" prefHeight="44.0" prefWidth="168.0" text="Vote Nationally" />
+      <Button fx:id="btnLocal" layoutX="759.0" layoutY="412.0" mnemonicParsing="false" onAction="#btnLocal" prefHeight="44.0" prefWidth="168.0" text="Vote Locally" />
+      <Button fx:id="btnProvincial" layoutX="440.0" layoutY="412.0" mnemonicParsing="false" onAction="#btnProvincial" prefHeight="44.0" prefWidth="168.0" text="Vote Provincially" />
+      <Button fx:id="btnLogout" layoutX="38.0" layoutY="531.0" mnemonicParsing="false" onAction="#btnLogout" prefHeight="44.0" prefWidth="168.0" text="Logout" />
+   </children>
+</AnchorPane>

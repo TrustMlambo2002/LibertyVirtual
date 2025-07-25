@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=VotingPageController
+comment1.params=event
+comment1.target=void\ btnLocal(javafx.event.ActionEvent)
+comment2.params=event
+comment2.target=void\ btnLogout(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ btnNational(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ btnProvincial(javafx.event.ActionEvent)
+comment5.params=
+comment5.target=void\ switchPage()
+numComments=6

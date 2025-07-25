@@ -1,0 +1,15 @@
+national,EFF,1
+provincial,MK,1
+local,EFF,1
+national,MK,1
+provincial,DA,1
+local,MK,1
+national,EFF,1
+provincial,EFF,1
+local,EFF,1
+national,ANC,1
+provincial,DA,1
+local,MK,1
+national,EFF,1
+provincial,DA,1
+local,MK,1

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PartyPageController
+comment1.params=event
+comment1.target=void\ vote(javafx.event.ActionEvent)
+comment2.params=btnName
+comment2.target=void\ voted(java.lang.String)
+comment3.params=
+comment3.target=void\ switchPage()
+comment4.params=
+comment4.target=void\ saveVotes()
+comment5.params=
+comment5.target=void\ display()
+numComments=6
